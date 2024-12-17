@@ -44,13 +44,23 @@ The Dungeon Adventure Game is a text-based RPG where players explore a dungeon, 
 
 ## Compilation and Execution
 ### Compilation
-To compile the game, use the following command:
+#### Windows (using MinGW)
 ```
-gcc -o Dungeon_Adventure_Game Dungeon_Adventure_Game.c
+mingw32-make
+```
+
+#### Linux
+```
+make
 ```
 
 ### Running the Game
-Execute the compiled file using:
+#### Windows
+```
+Dungeon_Adventure_Game.exe
+```
+
+#### Linux
 ```
 ./Dungeon_Adventure_Game
 ```
